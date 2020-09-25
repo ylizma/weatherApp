@@ -1,22 +1,15 @@
 <template>
-  <div id="app" >
-<vue-progress-bar></vue-progress-bar>
-	<weather />
-
-	
+  <div id="app">
+    <vue-progress-bar></vue-progress-bar>
+    <weather />
   </div>
 </template>
-<style>
-
-</style>
 <script>
-import weather from './components/Weather.vue'
-
+import weather from "./views/Weather.vue";
 export default {
-  name: 'app',
+  name: "app",
   components: {
-    weather
-  }
-}
+    weather,
+  },
+};
 </script>
-
